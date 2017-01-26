@@ -1,0 +1,13 @@
+{
+  "title": "Zendesk",
+  "description": "elastic.io integration component to communicate with the Zendesk API",
+  "credentials": {
+    "fields": {
+      "name": {
+        "label": "My API Key",
+        "required": true,
+        "viewClass": "TextFieldView"
+      }
+    }
+  }
+}
