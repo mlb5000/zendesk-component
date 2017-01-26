@@ -19,13 +19,12 @@
     "elasticio-component"
   ],
   "dependencies": {
-    "bluebird": "^3.4.6",
     "co": "^4.6.0",
     "elasticio-node": "0.0.5",
-    "elasticio-sailor-nodejs": "1.3.0",
-    "node-zendesk": "^1.1.12",
+    "elasticio-sailor-nodejs": "2.0.0-dev.11",
     "request": "^2.75.0",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.1.1",
+    "zendesk-node-api": "^1.2.0"
   },
   "scripts": {
     "pretest": "node_modules/.bin/eslint lib spec Gruntfile.js --ext .json --ext .js --fix",
