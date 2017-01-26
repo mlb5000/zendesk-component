@@ -24,9 +24,8 @@
     "oauth2": {
       "client_id": "{{ZENDESK_CLIENT_ID}}",
       "client_secret": "{{ZENDESK_CLIENT_SECRET}}",
-      "auth_uri": "https://{{subdomain}}.zendesk.com/oauth/authorizations/new",
-      "token_uri": "https://{{subdomain}}.zendesk.com/oauth/tokens",
-      "scope": "tickets:read tickets:write"
+      "auth_uri": "https://{{subdomain}}.zendesk.com/oauth/authorizations/new?scope=",
+      "token_uri": "https://{{subdomain}}.zendesk.com/oauth/tokens=tickets%3Aread%20tickets%3Awrite"
     }
   }
 }

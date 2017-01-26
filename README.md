@@ -50,8 +50,8 @@ If you are testing it on default public tenant just use ``https://app.elastic.io
 
 In the component repository you need to specify OAuth Client credentials as environment variables. You would need two variables
 
- * ```XXX_KEY``` - your OAuth client key
- * ```XXX_SECRET``` - your OAUth client secret
+ * ```ZENDESK_CLIENT_ID``` - your OAuth client key
+ * ```ZENDESK_CLIENT_SECRET``` - your OAUth client secret
  
 ## Known issues
 
