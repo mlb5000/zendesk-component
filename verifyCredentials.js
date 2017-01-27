@@ -12,7 +12,8 @@ module.exports = function verifyCredentials(credentials) {
 
   const zendesk = new Zendesk({
     url: `https://${credentials.subdomain}.zendesk.com`,
-    oauth: credentials.access_token
+    token: credentials.oauth.access_token,
+    oauth: true
   });
 
   return zendesk.tickets.list();
