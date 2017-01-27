@@ -16,5 +16,7 @@ module.exports = function verifyCredentials(credentials) {
     oauth: true
   });
 
-  return zendesk.tickets.list();
+  return zendesk.tickets.list("per_page=1").then((response) => {
+    if (!response) throw new Error('Failed to validate credentials');
+  });
 };
