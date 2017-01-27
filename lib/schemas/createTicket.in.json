@@ -10,12 +10,12 @@
       "type": "string",
       "required": false,
       "title": "Type",
-      "enum": [
-        "problem",
-        "incident",
-        "question",
-        "task"
-      ]
+      "enum": {
+        "problem": "Problem",
+        "incident": "Incident",
+        "question": "Question",
+        "task": "Task"
+      }
     },
     "subject": {
       "type": "string",
@@ -42,14 +42,14 @@
       "type": "string",
       "required": false,
       "title": "Status",
-      "enum": [
-        "new",
-        "open",
-        "pending",
-        "hold",
-        "solved",
-        "closed"
-      ]
+      "enum": {
+        "new": "New",
+        "open": "Open",
+        "pending": "Pending",
+        "hold": "On-Hold",
+        "solved": "Solved",
+        "closed": "Closed"
+      }
     },
     "requester": {
       "type": "object",
