@@ -27,5 +27,15 @@
       "auth_uri": "https://{{subdomain}}.zendesk.com/oauth/authorizations/new?scope=tickets%3Aread%20tickets%3Awrite",
       "token_uri": "https://{{subdomain}}.zendesk.com/oauth/tokens"
     }
+  },
+  "actions": {
+    "createTicket": {
+      "title": "Create ticket",
+      "main": "./lib/actions/createTicket.js",
+      "metadata": {
+        "in": "./lib/schemas/createTicket.in.json",
+        "out": "./lib/schemas/createTicket.out.json"
+      }
+    }
   }
 }
