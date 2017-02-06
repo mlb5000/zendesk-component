@@ -10,12 +10,12 @@
       "type": "string",
       "required": false,
       "title": "Type",
-      "enum": {
-        "problem": "Problem",
-        "incident": "Incident",
-        "question": "Question",
-        "task": "Task"
-      }
+      "enum": [
+        "problem",
+        "incident",
+        "question",
+        "task"
+      ]
     },
     "subject": {
       "type": "string",
@@ -31,25 +31,25 @@
       "type": "string",
       "required": false,
       "title": "Priority",
-      "enum": {
-        "urgent": "urgent",
-        "high": "high",
-        "normal": "normal",
-        "low": "low"
-      }
+      "enum": [
+        "urgent",
+        "high",
+        "normal",
+        "low"
+      ]
     },
     "status": {
       "type": "string",
       "required": false,
       "title": "Status",
-      "enum": {
-        "new": "New",
-        "open": "Open",
-        "pending": "Pending",
-        "hold": "On-Hold",
-        "solved": "Solved",
-        "closed": "Closed"
-      }
+      "enum": [
+        "new",
+        "open",
+        "pending",
+        "hold",
+        "solved",
+        "closed"
+      ]
     },
     "requester": {
       "type": "object",
