@@ -20,10 +20,8 @@
   ],
   "dependencies": {
     "co": "^4.6.0",
-    "elasticio-node": "0.0.5",
-    "elasticio-sailor-nodejs": "2.0.0-dev.11",
-    "request": "^2.75.0",
-    "request-promise": "^4.1.1",
+    "elasticio-node": "0.0.8",
+    "elasticio-sailor-nodejs": "2.1.0",
     "zendesk-node-api": "zubairov/zendesk-node-api"
   },
   "scripts": {
