@@ -25,7 +25,8 @@
     "description": {
       "type": "string",
       "required": false,
-      "title": "Descriptor"
+      "title": "Descriptor",
+      "maxLength": 20000
     },
     "priority": {
       "type": "string",
