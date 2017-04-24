@@ -32,6 +32,7 @@
     "createTicket": {
       "title": "Create ticket",
       "main": "./lib/actions/createTicket.js",
+      "description": "Creates a new Ticket in Zendesk. You may configure ticket description, severity and other fields. Optionally you may also configure requester's e-mail and name",
       "metadata": {
         "in": "./lib/schemas/createTicket.in.json",
         "out": "./lib/schemas/createTicket.out.json"
